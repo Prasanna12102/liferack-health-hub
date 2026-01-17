@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import {
-  LayoutDashboard,
   FileText,
   Utensils,
   Activity,
@@ -15,12 +14,11 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 
 const navItems = [
-  { title: "Dashboard", icon: LayoutDashboard, path: "/" },
+  { title: "Patient Management", icon: Users, path: "/" },
   { title: "Medical Reports", icon: FileText, path: "/medical-reports" },
   { title: "Food Recognition", icon: Utensils, path: "/food-recognition" },
   { title: "Habit Tracker", icon: Activity, path: "/habit-tracker" },
   { title: "Disease Recognition", icon: Stethoscope, path: "/disease-recognition" },
-  { title: "Patient Management", icon: Users, path: "/patient-management" },
 ];
 
 interface AppSidebarProps {
