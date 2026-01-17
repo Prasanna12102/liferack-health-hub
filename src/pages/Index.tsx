@@ -1,7 +1,7 @@
-import Dashboard from "./Dashboard";
+import PatientManagement from "./PatientManagement";
 
 const Index = () => {
-  return <Dashboard />;
+  return <PatientManagement />;
 };
 
 export default Index;
